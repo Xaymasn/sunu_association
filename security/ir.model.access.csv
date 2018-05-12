@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_sunu_association_sunu_association,sunu_association.sunu_association,model_sunu_association_sunu_association,,1,0,0,0
