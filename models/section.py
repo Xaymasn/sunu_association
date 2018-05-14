@@ -3,7 +3,7 @@
 from odoo import models, fields, api
 
 class Section(models.Model):
-    _name = 'sunuAssociation.section'
+    _name = 'sunu_association.section'
     nom = fields.Char( string='Nom', required=True, )
     zoneGeographique = fields.Text(
         string='Zone Géographique',

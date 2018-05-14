@@ -3,7 +3,7 @@
     <act_window 
         id="sunu_association_action" 
         name="Sunu Association" 
-        res_model="sunuAssociation.section" />
+        res_model="sunu_association.section" />
 
     <menuitem 
         id="sunu_association_menu" 
