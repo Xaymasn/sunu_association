@@ -10,6 +10,9 @@
     'depends': ['base'],
     'data': [
         'views/section/section.action.xml',
+        'views/section/section.form.xml',
+        'views/section/section.search.xml',
+        'views/section/section.tree.xml',
     ],
     'application':True,
 }

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-    <record id="library_book_view_search" model="ir.ui.view"> 
-  <field name="name">Library Book Search</field> 
-  <field name="model">library.book</field> 
+    <record id="sunu_association_section_search" model="ir.ui.view"> 
+  <field name="name">Recherche de section</field> 
+  <field name="model">sunu_association.section</field> 
   <field name="arch" type="xml"> 
     <search> 
-      <field name="name"/> 
-      <field name="author_ids"/> 
-      <filter string="No Authors"  
-              domain="[('author_ids','=',False)]"/> 
+      <field name="nom"/> 
+      <field name="zoneGeographique"/> 
+      <!--filter string="No Authors"  
+              domain="[('author_ids','=',False)]"/--> 
     </search> 
   </field>
 </record> 
